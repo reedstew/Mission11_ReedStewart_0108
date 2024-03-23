@@ -18,5 +18,23 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #f0f5f9;
+}
+
+.card {
+    margin-bottom: 20px; /* Add margin between cards */
+    transition: box-shadow 0.3s ease; /* Add transition effect to box-shadow property */
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Change box-shadow on hover */
+}
+
+.list-author {
+    font-size: 16px;
+}
+
+.list-group-item {
+    font-size: 13px; /* Adjust font size of list group items */
 }
